@@ -75,13 +75,6 @@ header {
 .header-drawer-menu-box {
     display: none;
     @include set_position_absolute($left: 0);
-    @include set_position(
-        "top",
-        $sp: $header-height-sp,
-        $tablet: $header-height-tablet,
-        $pc: $header-height-pc,
-        $default: $header-height
-    );
     width: 100%;
     @include set_height();
     background-color: $red;

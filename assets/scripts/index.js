@@ -47,6 +47,9 @@ const url = local.origin;
 const slide_dir = url + getDir(local) + 'assets/images/';
 const speed = 1000;
 const fade_sp = 5000;
+console.log(local);
+console.log(url);
+console.log(getDir(local));
 let timer = setInterval(function () { slide_timer() }, fade_sp);
 // スライドボタン
 $('.slide-btn').click(function () {
